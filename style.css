@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+  background-color: #272c35; /* Bootstrap's .bg-secondary */
+  font-family: "Grandstander", cursive;
+  font-size: 25px;
+  color: #f8f9fa; /* Light text for contrast */
+}
+
+.nav {
+  background-color: #ffffff !important;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #0d6efd; /* Bootstrap primary */
+}
+
+.container .bg-white {
+  background-color: #f8f9fa !important; /* Slightly off-white for contrast */
+  color: #212529;
+}
+
+a {
+  color: #0dcaf0;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a[href="https://x.com/_dawnex"]
+{
+  color: #f44c7f;
+}
+
+a[href="#"] {
+  color: #f44c7f;
+}
